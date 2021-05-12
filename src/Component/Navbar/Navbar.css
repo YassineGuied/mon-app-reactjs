@@ -1,0 +1,43 @@
+img{
+    width: 200px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li {
+   /* padding: 15px;*/
+   margin-right: 2.5px;
+   margin-left: 2.5px;
+   padding: 9px 14px 10px;
+   border-radius: 10px;
+   -webkit-transition: all 200ms ease-in-out;
+   transition: all 200ms ease-in-out;
+   color: #005368;
+   font-size: 15px;
+   font-weight: 500;
+   letter-spacing: 0.2px;
+}
+
+ul li button {
+    margin-left: 13.5px;
+    padding: 10px 20px 9px;
+    border-radius: 10px;
+    background-color: #009789;
+    color: #fff;
+    font-weight: 700;
+}
+.c-logo {
+    width: 129px;
+    height: 37px;
+    background-image: url("https://assets-global.website-files.com/5f6b627361bad8cad0fc5c99/5f6b6bb02d342c760270fe32_logo.svg");
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
